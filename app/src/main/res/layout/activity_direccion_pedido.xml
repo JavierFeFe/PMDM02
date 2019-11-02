@@ -31,14 +31,17 @@
 
     <EditText
         android:id="@+id/editTextDireccion"
-        android:layout_width="213dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
         android:layout_marginEnd="52dp"
         android:layout_marginRight="52dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintBaseline_toBaselineOf="@+id/textViewDireccion"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textViewCiudad"
@@ -53,14 +56,17 @@
 
     <EditText
         android:id="@+id/editTextCiudad"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
         android:layout_marginEnd="52dp"
         android:layout_marginRight="52dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintBaseline_toBaselineOf="@+id/textViewCiudad"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textViewCP"
@@ -75,14 +81,17 @@
 
     <EditText
         android:id="@+id/editTextCP"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
         android:layout_marginEnd="52dp"
         android:layout_marginRight="52dp"
         android:ems="10"
         android:inputType="textPostalAddress"
         app:layout_constraintBaseline_toBaselineOf="@+id/textViewCP"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/buttonFinalizar"
